@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Rajvardhan Dutt Sharma
+	email = raj.rajsharma7474@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = true
